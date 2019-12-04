@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="EN">
+<head>
+    <meta charset="utf-8"/>
+    <title>Forget China - it�s the US that really moves markets</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <link rel="icon" type="image/png" href="/static/images/favicon.png"/>
+    <link rel="stylesheet" href="/static/style/style.css?0.0.7-202-g67a6130-SNAPSHOT"/>
+    <script src="/static/script/main.js?0.0.7-202-g67a6130-SNAPSHOT"></script>
+    <script src="//tags.tiqcdn.com/utag/robeco/global-v2/dev/utag.js"></script>
+</head>
+
+<body data-ng-app="app" class="angular-root">
+
+
+<script type="text/javascript">
+(function(){
+var label = __require('labels');
+label.register('header.search.noresults','No results');
+label.register('header.search.notavailable','Not available');
+})();</script>
+
+<nav class="navbar navbar-default" data-ng-controller="ngRobNavigationCtrl">
+    <span class="navbar-lines"></span>
+    <div class="container">
+
+        
+        <div class="navbar-header">
+            <a class="navbar-brand" href="/en/" title="Robeco - The Investment Engineers"></a>
+            <button class="btn-menu-open" data-ng-click="openMenu()"></button>
+            <button class="btn-search-open" data-ng-click="openSearch()"></button>
+        </div>
+
+        <div class="navbar-wrapper">
+
+            
+            <ul class="nav navbar-nav navbar-left">
+                <li class="active ">
+                    <a href="/en/insights/index.html">Insight</a>
+                </li>
+                <li class=" ">
+                    <a href="/en/funds">Funds</a>
+                </li>
+                <li class=" ">
+                    <a href="/en/strategies/index.html">Strategies </a>
+                </li>
+                <li class=" hidden-sm">
+                    <a href="http://www.robeco.nl/">Key strengths</a>
+                </li>
+                
+                <li class="dropdown hidden-xs hidden-md hidden-lg">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        more...
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li class="active hidden-sm">
+                            <a href="/en/insights/index.html">Insight</a>
+                        </li>
+                        <li class=" hidden-sm">
+                            <a href="/en/funds">Funds</a>
+                        </li>
+                        <li class=" hidden-sm">
+                            <a href="/en/strategies/index.html">Strategies </a>
+                        </li>
+                        <li class=" ">
+                            <a href="http://www.robeco.nl/">Key strengths</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
+            
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown dropdown-language">
+                    
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <span class="dropdown-label">Global - English</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            
+                            
+                                <li><a href="#">Australia</a></li>
+                            
+                                <li><a href="#">Belgium - Dutch</a></li>
+                            
+                                <li><a href="#">Belgium - French</a></li>
+                            
+                                <li><a href="#">France</a></li>
+                            
+                                <li><a href="#">Germany</a></li>
+                            
+                                <li><a href="#">Hong Kong</a></li>
+                            
+                                <li><a href="#">Italia</a></li>
+                            
+                                <li><a href="#">Japan</a></li>
+                            
+                                <li><a href="#">Middle East</a></li>
+                            
+                                <li><a href="#">Netherlands</a></li>
+                            
+                                <li><a href="#">Spain</a></li>
+                            
+                                <li><a href="#">Switzerland - English</a></li>
+                            
+                                <li><a href="#">Switzerland - German</a></li>
+                            
+                                <li><a href="#">United Kingdom</a></li>
+                            
+                                <li><a href="#">United States</a></li>
+                            
+                        </ul>
+                    
+                </li>
+            </ul>
+
+            
+            <button class="btn-menu-close" data-ng-click="closeMenu()"></button>
+
+        </div>
+
+        
+        <div class="navbar-search">
+            <form class="navbar-form" data-ng-submit="search()">
+                <div class="form-group">
+                    <input type="search" class="form-control" data-ng-model="query" data-ng-focus="openSearch()" data-ng-change="search()" placeholder="Search..." autocomplete="off"/>
+                    <button type="submit" class="btn-search-submit"></button>
+                </div>
+                <button type="reset" class="btn-search-close" data-ng-click="closeSearch()">
+                    <span>Close</span>
+                </button>
+            </form>
+            <div class="navbar-search-results">
+                <div class="container">
+                    <div class="navbar-search-results-content" data-ng-rob-search-results>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</nav>
+
+<div class="wrapper">
+    
+        
+            <div class="container insights-detail-content">
+
+    
+    <div class="insights-detail-hero">
+        <div class="row">
+            <div class="col-xs-12">
+                <picture>
+                    <img alt="Forget China - it�s the US that really moves markets" title="Forget China - it�s the US that really moves markets" src="/images/2/f/5/2f5a83c464d7bfc5e0a85fcb298e3687_81634447_tcm17-514_1370x500.jpg" srcset="/images/2/f/5/2f5a83c464d7bfc5e0a85fcb298e3687_81634447_tcm17-514_1370x500.jpg 1401w, /images/3/3/7/337a3d8d1d668edd5cd1c67aad66a49d_81634447_tcm17-514_1090x500.jpg 1400w, /images/4/0/5/4052b0f859efba8150f14a4778266f04_81634447_tcm17-514_930x500.jpg 1120w, /images/2/9/e/29e64d7578fe54c6581257c436bc3254_81634447_tcm17-514_959x250.jpg 960w" sizes="100vw" />
+                </picture>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="insights-detail-intro">
+        <div class="row">
+            <div class="col-sm-7 col-sm-offset-1">
+                <h1>Forget China - it�s the US that really moves markets</h1>
+                <span>
+                    05-01-2016
+                     | 
+                    Insight
+                </span>
+                <div class="richtext">
+ <p >Chinese growth fears and Middle East tensions caused equity markets to open the new year with significant falls � but it is the US that investors should focus on, says Robeco�s Lukas Daalder.</p>
+</div>
+            </div>
+
+            <!--*/ follow-up */-->
+            <div class="col-sm-4">
+    <div class="follow-up">
+        <input type="checkbox" id="follow-up"/>
+        <div class="follow-up-container">
+            <label for="follow-up"></label>
+            <ul>
+                <li>
+                    <label for="share" class="icon-share">Share</label>
+                    <input type="checkbox" id="share"/>
+                    <div class="follow-up-share">
+                        
+                            <a class="circle icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://prod-live-robeco-com.robeco.com/en/insights/2016/01/forget-china-its-the-us-that-really-moves-markets.html" target="_blank"></a>
+                            
+                            
+                            
+                        
+                            
+                            
+                            
+                            <a class="circle icon-whatsapp" href="whatsapp://send?text=http://prod-live-robeco-com.robeco.com/en/insights/2016/01/forget-china-its-the-us-that-really-moves-markets.html" target="_blank"></a>
+                        
+                            
+                            
+                            <a class="circle icon-twitter" href="https://twitter.com/share" target="_blank"></a>
+                            
+                        
+                            
+                            <a class="circle icon-linkedin" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://prod-live-robeco-com.robeco.com/en/insights/2016/01/forget-china-its-the-us-that-really-moves-markets.html" target="_blank"></a>
+                            
+                            
+                        
+                    </div>
+                </li>
+                <li>
+                    <a class="icon-email" href="mailto:h.vleeming@robeco.nl">Email</a>
+                </li>
+                <li>
+                    <a class="icon-print" href="javascript:window.print();">Print</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+
+    
+    <div class="insights-detail-authors">
+        <div class="row">
+            <div class="col-sm-offset-1 col-sm-7">
+                <ul>
+                    
+                        <li>
+                            <input type="radio" name="author" id="author-0" checked="checked"/>
+                            <div class="insights-detail-authors-item">
+                                <label for="author-0"></label>
+                                <picture>
+                                    <img alt="Lukas Daalder" title="Lukas Daalder" src="/images/d/b/e/dbe695bdd1aac065240402ecf30734b9_lukas-daalder-thumb_tcm17-2445_140x160.jpg" />
+                                </picture>
+                                <div class="name">
+                                    <div class="firstname">Lukas</div>
+                                    <div class="lastname">Daalder</div>
+                                </div>
+                                <div class="summary">
+                                    <span class="title">Chief Investment Officer</span>
+                                    <span> - </span>
+                                </div>
+                                <a class="icon-twitter" href="http://twitter.com/ldaalder" target="_blank"></a>
+                                <a class="icon-linkedin" href="https://nl.linkedin.com/in/lukas-daalder-043660" target="_blank"></a>
+                                <a class="link" href="/en/insights/authors/lukas-daalder.html"></a>
+                            </div>
+                        </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    
+    
+        <div class="insights-detail-speedread">
+    <div class="row">
+        <div class="col-sm-offset-1 col-sm-7">
+            <h2>Speed read</h2>
+            <div class="richtext">
+ <ul >
+  <li>Chinese markets drop 7% on first day on growth fears</li>
+  <li>Equities are also spooked by Saudi Arabia/Iran row</li>
+  <li>Real focus should be on US economy if data disappoints</li>
+ </ul>
+</div>
+        </div>
+    </div>
+</div>
+    
+        <div class="insights-detail-text">
+    <div class="row">
+        <div class="col-sm-7 col-sm-offset-1">
+            
+            <div class="richtext">
+ <p >The Chinese stock market fell 7% on the first trading day of 2016 after the country�s Purchasing Managers Index (PMI) for factory production fell below 50 for the first time, signaling contraction. This was combined with the end of a ban on selling stocks by insiders coming into effect on 8 January.</p>
+ <p >Added to the new year�s malaise was a major diplomatic spat between two of the world�s largest oil producers after Saudi Arabia executed a prominent Iranian cleric for allegedly plotting against the Saudi government. The bad Chinese and Middle East news sent European equities down over 3% and major US indices around 1.5% lower. <br></p>
+ <p >However, it is potentially poor economic data from the US, not China, that investors should be more concerned about, says Lukas Daalder, Chief Investment Officer of Robeco Investment Solutions, which is currently overweight equities.</p>
+</div>
+        </div>
+        <div class="detail-cta col-sm-4">
+    <div class="detail-cta-wrapper">
+        
+        <div class="detail-cta-content">
+            
+            <div class="header">Discover the latest insights</div>
+            
+
+            
+                <a class="btn btn-primary" href="/en/insights/2015/01/factor-investing-works.html" onclick="utag.link({&quot;ia_event&quot;:&quot;iaCtaButton&quot;,&quot;ia_action&quot;:&quot;Subscribe&quot;,&quot;ia_label&quot;:&quot;Discover the latest insights&quot;,&quot;link_name&quot;:&quot;CTA Button&quot;});">Subscribe</a>
+                
+                
+            
+
+        </div>
+    </div>
+</div>
+    </div>
+</div>
+    
+        <div class="insights-detail-text">
+    <div class="row">
+        <div class="col-sm-7 col-sm-offset-1">
+            <h2>China spooks markets</h2>
+            <div class="richtext">
+ <p >�Chinese growth figures were weaker than expected, and this has spooked the markets somewhat, while the ongoing lifting of the insiders� selling ban also caused a scare,� says Daalder. �Added to that were the rising tensions between Saudi Arabia and Iran, which did not help sentiment and pushed stocks down further.�</p>
+ <p >�However, the Chinese stock market is by no means a good guide for what European or US stocks could do; it�s a standalone creature that really has a life of its own. Certainly if there is a 7% drop on the first trading day of the year then this is going to spook everybody, but in general we should not look at the Chinese market for the direction of overall stocks.� <br></p>
+ <p >He says the central issue remains the obsession both within and outside China that growth will hit its target of 7% this year, which looks increasingly unlikely as the country restructures.</p>
+ <p >�Chinese growth continues to be weaker than what everyone is hoping for, but in the end this will only trigger new policy responses by the Chinese authorities, which will boost growth and give better returns to stocks,� says Daalder. �It�s more of a concern for emerging markets and consumer goods-producing countries, and to a lesser extent the producers of luxury goods in Europe. But in general, the European and US economies are not that sensitive to overall developments in China.�</p>
+ <p class="quote" >�Chinese growth continues to be weaker than what everyone is hoping for�</p>
+ <p >Regarding the latest flare-up in the Middle East, he says: �The general rule here is that these issues always feel massive to start with, and we all think these conflicts will lead to a new world war or something, but nine times out of ten they die down. We had this with Ukraine and Russia, which everyone thought was going to escalate and then it didn�t, followed by Turkey and Russia. The situation between Saudi Arabia and Iran is certainly tense and needs monitoring, but does not necessarily have to end badly.�</p>
+ <p >�It�s not something that it is wise to act on if you have a multi-asset portfolio, where you sell some risk and then there is a political breakthrough, markets go back up, and you lose all the value. We are though overweight equities, so we are in a raw spot right now, and we�re discussing whether we believe it is a temporary blip or not.� </p>
+</div>
+        </div>
+        
+    </div>
+</div>
+    
+        <div class="insights-detail-text">
+    <div class="row">
+        <div class="col-sm-7 col-sm-offset-1">
+            <h2>The US is the real concern</h2>
+            <div class="richtext">
+ <p >What would cause a rethink in asset allocation is any disappointment over US data, particularly after the Federal Reserve hiked rates for the first time in almost a decade just before Christmas, says Daalder.</p>
+ <p >�The real concern is the US economy, with ISM manufacturing figures down again in what looks like a very weak fourth quarter for the US economy,� he says. �So far we have said the US economy will reap the benefits of the lower oil price and this will stimulate the economy; unemployment is still low and wage growth is picking up.�</p>
+ <p class="quote" >�The US economy will reap the benefits of the lower oil price�</p>
+ <p >�It would be very strange to now see the US economy heading towards a recession. But things have not picked up yet as much as some have hoped, and we are keenly looking to see what�s happening in the services industry.�&nbsp;</p>
+ <p >�The latest estimate for GDP growth as issued by the Atlanta Fed is 0.8% in the fourth quarter which would make it one of the weakest quarters in 2015. So far we have always been of the opinion that the US economy will be OK, so we need to see a change in services in order to have a serious problem.�</p>
+</div>
+        </div>
+        
+    </div>
+</div>
+    
+
+    
+    <div class="insights-detail-keywords">
+        <div class="row">
+            <div class="col-sm-7 col-sm-offset-1">
+                <span>Subjects related to this article are:</span>
+                <ul>
+                    <li>
+                        <a href="#">Asset allocation</a>
+                    </li>
+                    <li>
+                        <a href="#">Macro economy</a>
+                    </li>
+                    <li>
+                        <a href="#">Global equities</a>
+                    </li>
+                    <li>
+                        <a href="#">Equities</a>
+                    </li>
+                    <li>
+                        <a href="#">Emerging markets</a>
+                    </li>
+                    <li>
+                        <a href="#">Consumer spending</a>
+                    </li>
+                    <li>
+                        <a href="#">China</a>
+                    </li>
+                    <li>
+                        <a href="#">US</a>
+                    </li>
+                    
+                        <li>
+                            <a href="#">Lukas Daalder</a>
+                        </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<div class="container insights-detail-related-articles">
+    <div class="row">
+        
+            
+                
+                    <div class="col-sm-3 hidden-xs">
+                        <a href="/en/insights/2016/12/financials-are-back-with-a-vengeance.html" onclick="utag.link({&quot;ia_event&quot;:&quot;iaTriangleClick&quot;,&quot;ia_action&quot;:&quot;Related Insights&quot;,&quot;ia_label&quot;:&quot;Financials are back with a vengeance&quot;,&quot;link_name&quot;:&quot;Triangle Click&quot;});">
+                            <picture>
+                                <img alt="Financials are back with a vengeance" title="Financials are back with a vengeance" src="/images/3/e/b/3eb1e8fe13d431cda4a70e78f54c82fa_621877610_tcm17-4726_343x540.jpg" srcset="/images/3/e/b/3eb1e8fe13d431cda4a70e78f54c82fa_621877610_tcm17-4726_343x540.jpg 1401w, /images/0/3/2/032ef9ac99f666dfd878cd2b654d6240_621877610_tcm17-4726_273x540.jpg 1400w, /images/1/8/d/18d873b3882d8b1609b09dd120aa3400_621877610_tcm17-4726_233x540.jpg 1120w" sizes="100vw" />
+                            </picture>
+                            <div class="caption">
+                                Financials are back with a vengeance
+                            </div>
+                        </a>
+                    </div>
+                
+                
+                
+            
+        
+            
+                
+                
+                    <div class="col-sm-6">
+                        
+                            <h2>Related articles</h2>
+                            <a class="btn btn-link" href='/en/insights/index.html'>
+                                See all
+                            </a>
+                            <ul>
+                                <li>
+                                    <a href="/en/insights/2016/12/wsdkwtwd--we-simply-dont-know-what-trump-will-do.html" onclick="utag.link({&quot;ia_event&quot;:&quot;iaTriangleClick&quot;,&quot;ia_action&quot;:&quot;Related Insights&quot;,&quot;ia_label&quot;:&quot;WSDKWTWD � We Simply Don�t Know What Trump Will Do&quot;,&quot;link_name&quot;:&quot;Triangle Click&quot;});">
+                                        <picture>
+                                            <img alt="WSDKWTWD � We Simply Don�t Know What Trump Will Do" title="WSDKWTWD � We Simply Don�t Know What Trump Will Do" src="/images/a/4/4/a443622c8fc2855fe3fde15415c23141_627143758_tcm17-4737_130x80.jpg" srcset="/images/a/4/4/a443622c8fc2855fe3fde15415c23141_627143758_tcm17-4737_130x80.jpg 1401w" sizes="100vw" />
+                                        </picture>
+                                        <div class="caption">
+                                            <div class="header">WSDKWTWD � We Simply Don�t Know What Trump Will Do</div>
+                                            <div class="date">
+                                                07-12-2016
+                                                 | 
+                                                Insight
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/en/insights/2016/12/italian-anti-establishment-vote-exacerbates-banking-crisis.html" onclick="utag.link({&quot;ia_event&quot;:&quot;iaTriangleClick&quot;,&quot;ia_action&quot;:&quot;Related Insights&quot;,&quot;ia_label&quot;:&quot;Italian anti-establishment vote exacerbates banking crisis&quot;,&quot;link_name&quot;:&quot;Triangle Click&quot;});">
+                                        <picture>
+                                            <img alt="Italian anti-establishment vote exacerbates banking crisis" title="Italian anti-establishment vote exacerbates banking crisis" src="/images/5/3/3/53303d52d2fb64bca42b33a37aa77457_626285742_tcm17-4722_130x80.jpg" srcset="/images/5/3/3/53303d52d2fb64bca42b33a37aa77457_626285742_tcm17-4722_130x80.jpg 1401w" sizes="100vw" />
+                                        </picture>
+                                        <div class="caption">
+                                            <div class="header">Italian anti-establishment vote exacerbates banking crisis</div>
+                                            <div class="date">
+                                                05-12-2016
+                                                 | 
+                                                Insight
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/en/insights/2016/12/connecting-academic-theory-and-financial-industry-practices.html" onclick="utag.link({&quot;ia_event&quot;:&quot;iaTriangleClick&quot;,&quot;ia_action&quot;:&quot;Related Insights&quot;,&quot;ia_label&quot;:&quot;Connecting academic theory and financial industry practices&quot;,&quot;link_name&quot;:&quot;Triangle Click&quot;});">
+                                        <picture>
+                                            <img alt="Connecting academic theory and financial industry practices" title="Connecting academic theory and financial industry practices" src="/images/e/0/7/e070f9b840b5c1af9d2f3c6c44e01d9e_465246863_tcm17-4539_130x80.jpg" srcset="/images/e/0/7/e070f9b840b5c1af9d2f3c6c44e01d9e_465246863_tcm17-4539_130x80.jpg 1401w" sizes="100vw" />
+                                        </picture>
+                                        <div class="caption">
+                                            <div class="header">Connecting academic theory and financial industry practices</div>
+                                            <div class="date">
+                                                01-12-2016
+                                                 | 
+                                                Interview
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        
+                    </div>
+                
+                
+            
+        
+            
+                
+                
+                
+                    <div class="col-sm-3 hidden-xs">
+                        <a href="/en/insights/2016/12/trump-and-the-new-china.html" onclick="utag.link({&quot;ia_event&quot;:&quot;iaTriangleClick&quot;,&quot;ia_action&quot;:&quot;Related Insights&quot;,&quot;ia_label&quot;:&quot;Trump and the �new� China&quot;,&quot;link_name&quot;:&quot;Triangle Click&quot;});">
+                            <picture>
+                                <img alt="Trump and the �new� China" title="Trump and the �new� China" src="/images/6/0/2/602f2c81cd592948ead3787895b3d02c_533021586_tcm17-4719_343x540.jpg" srcset="/images/6/0/2/602f2c81cd592948ead3787895b3d02c_533021586_tcm17-4719_343x540.jpg 1401w, /images/7/d/c/7dc1b48acf24ef94a99dbea3ae002cdf_533021586_tcm17-4719_273x540.jpg 1400w, /images/2/8/7/287eb43cc2d7c76afc0e7fe2f8fd3607_533021586_tcm17-4719_233x540.jpg 1120w" sizes="100vw" />
+                            </picture>
+                            <div class="caption">
+                                Trump and the �new� China
+                            </div>
+                        </a>
+                    </div>
+                
+            
+        
+    </div>
+</div>
+
+
+<div class="container">
+    
+</div>
+
+        
+    
+</div>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 hidden-xs hidden-sm">
+                <ul class="footer-links">
+                    <li>
+                        <a href="http://www.robeco.com/">About us</a>
+                    </li>
+                    <li>
+                        <a href="http://www.robeco.com/">Insight</a>
+                    </li>
+                    <li>
+                        <a href="http://www.robeco.com/">Contact</a>
+                    </li>
+                    <li>
+                        <a href="http://www.robeco.com/">Facts &amp; figures</a>
+                    </li>
+                    <li>
+                        <a href="http://www.robeco.com">Products</a>
+                    </li>
+                    <li>
+                        <a href="http://www.robeco.com/">Media</a>
+                    </li>
+                    <li>
+                        <a href="#">How we work</a>
+                    </li>
+                    <li>
+                        <a href="http://www.robeco.nl/">Strategies </a>
+                    </li>
+                    <li>
+                        <a href="http://www.robeco.com">Careers</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h4>Visit us on social</h4>
+                        <ul class="footer-social">
+                            <li>
+                                
+                                    <a href="https://www.facebook.com/robecointernational" target="_blank" class="icon-facebook"></a>
+                                
+                            </li>
+                            <li>
+                                
+                                    <a href="https://twitter.com/robeco" target="_blank" class="icon-twitter"></a>
+                                
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6">
+                        <h4>Stay updated</h4>
+                        
+                            <a href="http://www.robeco.com/" class="btn btn-primary">Sign up for our newsletter</a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+                
+ <p >A consumer? Go to the <a href="http://www.robeco.nl">Robeco consumer site</a></p>
+
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <ul class="footer-legal">
+                    <li>
+                        <a href="http://www.robeco.nl/">Disclaimer</a>
+                    </li>
+                    <li>
+                        <a href="http://www.robeco.com">Security</a>
+                    </li>
+                    <li>
+                        <a href="#">Policies</a>
+                    </li>
+                    <li>
+                        <a href="http://www.robeco.nl/">Sitemap</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="footer-disclaimer">
+ <p >The information contained in the Website is solely intended for professional investors within the meaning of the Dutch Act on the Financial Supervision (Wet op het financi�le toezicht) or persons which are authorized to receive such information under any other applicable laws.</p>
+</div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+    <script>
+        utag.view({
+            'page_url': '/en/insights/2016/01/forget-china-its-the-us-that-really-moves-markets.html',
+            'page_id': '567',
+            'page_type': 'Insight',
+            'page_name': 'Forget China - it�s the US that really moves markets',
+            'site_country': 'Global',
+            'site_language': 'EN',
+            'site_country_language_id': '17'
+        });
+    </script>
+
+
+
+</body>
+</html>

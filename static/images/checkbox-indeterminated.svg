@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:x="adobe:ns:meta/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="15"
+   height="15"
+   viewBox="0 0 15 15"
+   version="1.1"
+   id="svg9"
+   sodipodi:docname="checkbox-indeterminated.svg"
+   inkscape:version="0.92.1 r15371">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2079"
+     inkscape:window-height="1118"
+     id="namedview11"
+     showgrid="false"
+     inkscape:zoom="27.223728"
+     inkscape:cx="-12.342845"
+     inkscape:cy="12.357279"
+     inkscape:window-x="946"
+     inkscape:window-y="187"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg9" />
+  <metadata
+     id="metadata2">
+    <x:xmpmeta
+       x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
+      <metadata>
+        <rdf:RDF>
+          <rdf:Description
+             rdf:about="" />
+          <cc:Work
+             rdf:about="">
+            <dc:format>image/svg+xml</dc:format>
+            <dc:type
+               rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+          </cc:Work>
+        </rdf:RDF>
+      </metadata>
+    </x:xmpmeta>
+<?xpacket end="w"?>  </metadata>
+  <defs
+     id="defs6">
+    <style
+       id="style4">
+      .cls-1 {
+        fill: #fff;
+        stroke: #b8c4d4;
+        stroke-linejoin: round;
+        stroke-width: 1px;
+      }
+    </style>
+  </defs>
+  <path
+     id="checkboxes"
+     class="cls-1"
+     d="M3.5,0.5h8a3,3,0,0,1,3,3v8a3,3,0,0,1-3,3h-8a3,3,0,0,1-3-3v-8a3,3,0,0,1,3-3Z" />
+  <rect
+     style="opacity:1;fill:#00a2bd;fill-opacity:1;stroke:none;stroke-width:1.00157475;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="rect4488"
+     width="8.8525715"
+     height="2.5251601"
+     x="3.0737145"
+     y="6.2374201" />
+</svg>

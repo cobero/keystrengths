@@ -1,0 +1,426 @@
+{
+    "asset": {
+        "generator": "FBX2glTF v0.9.7",
+        "version": "2.0"
+    },
+    "scene": 0,
+    "buffers": [
+        {
+            "byteLength": 876320,
+            "uri": "coral.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 388,
+            "byteOffset": 0
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1552,
+            "byteOffset": 388
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1164,
+            "byteOffset": 1940
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1552,
+            "byteOffset": 3104
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1552,
+            "byteOffset": 4656
+        },
+        {
+            "buffer": 0,
+            "byteLength": 51168,
+            "byteOffset": 6208,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteLength": 204672,
+            "byteOffset": 57376,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 204672,
+            "byteOffset": 262048,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 136448,
+            "byteOffset": 466720,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 272896,
+            "byteOffset": 603168,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 256,
+            "byteOffset": 876064
+        }
+    ],
+    "scenes": [
+        {
+            "name": "Root Scene",
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "accessors": [
+        {
+            "componentType": 5126,
+            "type": "SCALAR",
+            "count": 97,
+            "bufferView": 0,
+            "byteOffset": 0,
+            "min": [
+                0.0
+            ],
+            "max": [
+                4.0
+            ]
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC4",
+            "count": 97,
+            "bufferView": 1,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 97,
+            "bufferView": 2,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC4",
+            "count": 97,
+            "bufferView": 3,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC4",
+            "count": 97,
+            "bufferView": 4,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5123,
+            "type": "SCALAR",
+            "count": 25584,
+            "bufferView": 5,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 17056,
+            "bufferView": 6,
+            "byteOffset": 0,
+            "min": [
+                -0.131416797637939,
+                -0.131242200732231,
+                0.681372225284576
+            ],
+            "max": [
+                0.120413035154343,
+                0.0853770971298218,
+                0.927551805973053
+            ]
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 17056,
+            "bufferView": 7,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5123,
+            "type": "VEC4",
+            "count": 17056,
+            "bufferView": 8,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC4",
+            "count": 17056,
+            "bufferView": 9,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "MAT4",
+            "count": 4,
+            "bufferView": 10,
+            "byteOffset": 0
+        }
+    ],
+    "samplers": [
+        {}
+    ],
+    "materials": [
+        {
+            "name": "corail",
+            "alphaMode": "OPAQUE",
+            "extras": {
+                "fromFBX": {
+                    "shadingModel": "Phong",
+                    "isTruePBR": false
+                }
+            },
+            "emissiveFactor": [
+                0.215686276555061,
+                0.564705908298492,
+                0.709803938865662
+            ],
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.215686276555061,
+                    0.564705908298492,
+                    0.709803938865662,
+                    1.0
+                ],
+                "metallicFactor": 0.400000005960464,
+                "roughnessFactor": 0.70710676908493
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "corail low edge",
+            "primitives": [
+                {
+                    "material": 0,
+                    "mode": 4,
+                    "attributes": {
+                        "JOINTS_0": 8,
+                        "NORMAL": 7,
+                        "POSITION": 6,
+                        "WEIGHTS_0": 9
+                    },
+                    "indices": 5
+                }
+            ]
+        }
+    ],
+    "skins": [
+        {
+            "joints": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "inverseBindMatrices": 10,
+            "skeleton": 1
+        }
+    ],
+    "animations": [
+        {
+            "name": "Take 001",
+            "channels": [
+                {
+                    "sampler": 0,
+                    "target": {
+                        "node": 2,
+                        "path": "rotation"
+                    }
+                },
+                {
+                    "sampler": 1,
+                    "target": {
+                        "node": 3,
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": 2,
+                    "target": {
+                        "node": 3,
+                        "path": "rotation"
+                    }
+                },
+                {
+                    "sampler": 3,
+                    "target": {
+                        "node": 4,
+                        "path": "rotation"
+                    }
+                }
+            ],
+            "samplers": [
+                {
+                    "input": 0,
+                    "interpolation": "LINEAR",
+                    "output": 1
+                },
+                {
+                    "input": 0,
+                    "interpolation": "LINEAR",
+                    "output": 2
+                },
+                {
+                    "input": 0,
+                    "interpolation": "LINEAR",
+                    "output": 3
+                },
+                {
+                    "input": 0,
+                    "interpolation": "LINEAR",
+                    "output": 4
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "RootNode",
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "children": [
+                1,
+                5
+            ]
+        },
+        {
+            "name": "Bone001",
+            "translation": [
+                -9.12392439378351e-10,
+                0.681513667106628,
+                0.0208731032907963
+            ],
+            "rotation": [
+                -9.53923745328211e-07,
+                -9.53923404267698e-07,
+                0.707106649875641,
+                0.70710688829422
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "children": [
+                2
+            ]
+        },
+        {
+            "name": "Bone002",
+            "translation": [
+                0.0751708969473839,
+                1.19189280667342e-09,
+                2.38418573772492e-09
+            ],
+            "rotation": [
+                7.01473368280858e-08,
+                -0.0128754610195756,
+                -1.80193922005856e-07,
+                0.999917089939117
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "children": [
+                3
+            ]
+        },
+        {
+            "name": "Bone003",
+            "translation": [
+                0.0671815499663353,
+                -3.63797872577655e-14,
+                3.57627860658738e-09
+            ],
+            "rotation": [
+                -1.88656258615083e-07,
+                0.0129412561655045,
+                2.09599465961219e-06,
+                0.999916255474091
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "children": [
+                4
+            ]
+        },
+        {
+            "name": "Bone004",
+            "translation": [
+                0.0591926574707031,
+                -2.36016347798795e-07,
+                4.76837147544984e-09
+            ],
+            "rotation": [
+                -2.13765702028468e-06,
+                0.0124438749626279,
+                -6.11670486705407e-07,
+                0.999922573566437
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "name": "corail low edge",
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                -0.70710676908493,
+                -0.0,
+                0.0,
+                0.70710676908493
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "mesh": 0,
+            "skin": 0
+        }
+    ]
+}
